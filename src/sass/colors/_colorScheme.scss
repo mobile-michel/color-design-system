@@ -1,0 +1,33 @@
+:root {
+    color-scheme: light;
+    --surface1: #{$grey100};
+    --text1: #{$grey900};
+    --border1: #{$grey300};
+    --surface2: #{$accent100};
+    --text2: #{$accent900};
+    --border2: #{$accent200};
+    --surface3: #{$primary100};
+    --text3: #{$primary800};
+    --border3: #{$primary300};
+    --surface4: #{$primary400};
+    --text4: #{$primary900};
+    --border4: #{$primary600};
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+        --surface1: #{$accent800};
+        --text1: #{$grey100};
+        --border1: #{$grey300};
+        --surface2: #{$accent900};
+        --text2: #{$grey200};
+        --border2: #{$grey500};
+        --surface3: #{$primary800};
+        --text3: #{$primary100};
+        --border3: #{$primary900};
+        --surface4: #{$accent400};
+        --text4: #{$accent900};
+        --border4: #{$grey300};
+    }
+}

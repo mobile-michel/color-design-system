@@ -7,7 +7,7 @@ css: style.css
     {% include 'aside' %}
     <section>
         <h1>{{ title }}</h1>
-        <p>{{ description }}</p>
+<p>{% if url %}<a href="{{ url }}" target="_blank">{% endif %}{{ description }}</a></p>
         {{ content }}
     </section>
 </main>

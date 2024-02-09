@@ -1,6 +1,8 @@
 <aside>
-    <h2>Categories</h2>
+    <h2>On this blog</h2>
     <ul>
-        <li>Some text</li>
+        {% for i in collections.blog %}
+        <li><a href="{{ i.url }}">{{ i.data.title }}</a></li>
+        {% endfor %}
     </ul>
 </aside>

@@ -1,228 +1,268 @@
-@import "configure";
-@import "colors2";
-@import "variables";
-@import "layout";
-@import "navbar";
-@import "base";
-
-button {
-    border: 2px solid $grey500;
-    border-radius: 0.5em;
-    padding: .5em 1em;
-}
-
 .primary900 {
   background-color: $primary900;
   color: $primary100;
 }
+
 .primary800 {
   background-color: $primary800;
   color: $primary100
 }
+
 .primary700 {
   background-color: $primary700;
   color: $primary100
 }
+
 .primary600 {
   background-color: $primary600;
   color: $primary100
 }
+
 .primary500 {
   background-color: $primary500;
   color: $primary100
 }
+
 .primary400 {
   background-color: $primary400;
   color: $primary900
 }
+
 .primary300 {
   background-color: $primary300;
   color: $primary900
 }
+
 .primary200 {
   background-color: $primary200;
   color: $primary900
 }
+
 .primary100 {
   background-color: $primary100;
   color: $primary900
 }
+
 .grey900 {
   background-color: $grey900;
   color: $grey100
 }
+
 .grey800 {
   background-color: $grey800;
   color: $grey100
 }
+
 .grey700 {
   background-color: $grey700;
   color: $grey100
 }
+
 .grey600 {
   background-color: $grey600;
   color: $grey100
 }
+
 .grey500 {
   background-color: $grey500;
   color: $grey100
 }
+
 .grey400 {
   background-color: $grey400;
   color: $grey900
 }
+
 .grey300 {
   background-color: $grey300;
   color: $grey900
 }
+
 .grey200 {
   background-color: $grey200;
   color: $grey900
 }
+
 .grey100 {
   background-color: $grey100;
   color: $grey900
 }
+
 .accent900 {
   background-color: $accent900;
   color: $accent100
 }
+
 .accent800 {
   background-color: $accent800;
   color: $accent100
 }
+
 .accent700 {
   background-color: $accent700;
   color: $accent100
 }
+
 .accent600 {
   background-color: $accent600;
   color: $accent100
 }
+
 .accent500 {
   background-color: $accent500;
   color: $accent100
 }
+
 .accent400 {
   background-color: $accent400;
   color: $accent900
 }
+
 .accent300 {
   background-color: $accent300;
   color: $accent900
 }
+
 .accent200 {
   background-color: $accent200;
   color: $accent900
 }
+
 .accent100 {
   background-color: $accent100;
   color: $accent900
 }
+
 .danger900 {
   background-color: $danger900;
   color: $danger100
 }
+
 .danger800 {
   background-color: $danger800;
   color: $danger100
 }
+
 .danger700 {
   background-color: $danger700;
   color: $danger100
 }
+
 .danger600 {
   background-color: $danger600;
   color: $danger100
 }
+
 .danger500 {
   background-color: $danger500;
   color: $danger100
 }
+
 .danger400 {
   background-color: $danger400;
   color: $danger900
 }
+
 .danger300 {
   background-color: $danger300;
   color: $danger900
 }
+
 .danger200 {
   background-color: $danger200;
   color: $danger900
 }
+
 .danger100 {
   background-color: $danger100;
   color: $danger900
 }
+
 .warning900 {
   background-color: $warning900;
   color: $warning100
 }
+
 .warning800 {
   background-color: $warning800;
   color: $warning100
 }
+
 .warning700 {
   background-color: $warning700;
   color: $warning100
 }
+
 .warning600 {
   background-color: $warning600;
   color: $warning100
 }
+
 .warning500 {
   background-color: $warning500;
   color: $warning100
 }
+
 .warning400 {
   background-color: $warning400;
   color: $warning900
 }
+
 .warning300 {
   background-color: $warning300;
   color: $warning900
 }
+
 .warning200 {
   background-color: $warning200;
   color: $warning900
 }
+
 .warning100 {
   background-color: $warning100;
   color: $warning900
 }
+
 .success900 {
   background-color: $success900;
   color: $success100
 }
+
 .success800 {
   background-color: $success800;
   color: $success100
 }
+
 .success700 {
   background-color: $success700;
   color: $success100
 }
+
 .success600 {
   background-color: $success600;
   color: $success100
 }
+
 .success500 {
   background-color: $success500;
   color: $success100
 }
+
 .success400 {
   background-color: $success400;
   color: $success900
 }
+
 .success300 {
   background-color: $success300;
   color: $success900
 }
+
 .success200 {
   background-color: $success200;
   color: $success900
 }
+
 .success100 {
   background-color: $success100;
   color: $success900

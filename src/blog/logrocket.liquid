@@ -1,0 +1,45 @@
+---
+title: LogRocket
+description: Building a color palette with CSS
+url: https://blog.logrocket.com/building-color-palette-css/
+css: logrocket.css
+---
+<ol>
+    <li>The 60-30-10 design rule:
+        <ul>
+            <li>primary: 60%</li>
+            <li>secondary: 30%</li>
+            <li>accent: 10% (CTA, buttons, hyperlinks)</li>
+        </ul>
+    </li>
+    <li>Concepts of color harmony and contrast:
+        <ul>
+            <li>complementary colors: +180</li>
+            <li>analogous colors: -30 & +30</li>
+        </ul>
+    </li>
+    <li>Hue values:
+        <ul>
+            <li>hue: $hue</li>
+            <li>hueComplement: $hue +180</li>
+            <li>rightAnalogousColor: $hue -30</li>
+            <li>leftAnalogousColor: $hue +30</li>
+        </ul>
+    </li>
+    <li>Color palette:
+        <ul>
+            <li>primary100: hsl($hue 25% 95%)</li>
+            <li>primary500: hsl($hue 20% 85%)</li>
+            <li>primary600: hsl($hue 20% 75%)</li>
+            <li>secondary100: hsl($hueComplement 5% 20%)</li>
+            <li>secondary700: hsl($hueComplement 5% 30%)</li>
+            <li>secondary800: hsl($hueComplement 5% 25%)</li>
+            <li>secondary900: hsl($hueComplement 5% 95%)</li>
+            <li>accentR100: hsl($hueRightAnalogous 40% 95%)</li>
+            <li>accentR600: hsl($hueRightAnalogous 40% 40%)</li>
+            <li>accentL100: hsl($hueLeftAnalogous 40% 90%)</li>
+            <li>accentL600: hsl($hueLeftAnalogous 40% 40%)</li>
+        </ul>
+    </li>
+</ol>
+{% render 'swatches/logrocket' %}

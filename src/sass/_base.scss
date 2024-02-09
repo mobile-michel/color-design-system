@@ -5,27 +5,39 @@
 }
 
 body {
-    background-color: $primary100;
+    background-color: var(--surface1);
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 main {
-    background-color: $grey100;
-    color: $grey900;
+    background-color: var(--surface1);
+    color: var(--text1);
     padding: 1em;
 }
 
 aside {
-    background-color: $accent100;
-    color: $accent900;
-    border: 1px solid $accent200;
+    background-color: var(--surface3);
+    color: var(--text3);
+    border: 1px solid var(--border3);
     border-radius: 1em;
     padding: 1em;
 }
 
 footer {
-    background-color: $primary100;
-    color: $primary900;
+    background-color: var(--surface2);
+    color: var(--text2);
+    border: 1px solid var(--border2);
+    border-radius: 1em;
     padding: 1em;
+}
+
+a {
+    color: var(--text3);
+    border: 2px solid transparent;
+}
+
+a:hover {
+    color: var(--text4);
+    border: 2px dotted var(--border4);
 }

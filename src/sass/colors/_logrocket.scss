@@ -1,0 +1,77 @@
+$hue: 300;
+$hueComplement: $hue + 180;
+$hueRightAnalogous: $hue + 30;
+$hueLeftAnalogous: $hue - 30;
+
+$primary100: hsl($hue 25% 95%);
+$primary200: hsl($hue 20% 85%);
+$primary300: hsl($hue 20% 75%);
+$secondary100: hsl($hueComplement 5% 95%);
+$secondary700: hsl($hueComplement 5% 30%);
+$secondary800: hsl($hueComplement 5% 25%);
+$secondary900: hsl($hueComplement 5% 20%);
+$accentR100: hsl($hueRightAnalogous 40% 95%);
+$accentR600: hsl($hueRightAnalogous 40% 40%);
+$accentL100: hsl($hueLeftAnalogous 40% 90%);
+$accentL600: hsl($hueLeftAnalogous 40% 40%);
+
+$primary100: $primary100;
+$primary500: $accentR600;
+$primary600: $accentL600;
+$primary700: $accentL100;
+$primary900: $primary300;
+$grey100: $secondary100;
+$grey500: $secondary700;
+$grey900: $secondary900;
+$accent100: $accentR100;
+$accent200: $accentL100;
+$accent600: $accentR600;
+$accent700: $accentL600;
+$accent900: $accentL600;
+
+
+.primary100 {
+  background-color: $primary100;
+  color: black;
+}
+.primary200 {
+  background-color: $primary200;
+  color: black;
+}
+.primary300 {
+  background-color: $primary300;
+  color: black;
+}
+.secondary100 {
+  background-color: $secondary100;
+  color: black;
+}
+.secondary700 {
+  background-color: $secondary700;
+  color: white;
+}
+.secondary800 {
+  background-color: $secondary800;
+  color: white;
+}
+.secondary900 {
+  background-color: $secondary900;
+  color: white;
+}
+.accentR100 {
+  background-color: $accentR100;
+  color: black;
+}
+.accentR600 {
+  background-color: $accentR600;
+  color: white;
+}
+.accentL100 {
+  background-color: $accentL100;
+  color: black;
+}
+.accentL600 {
+  background-color: $accentL600;
+  color: white;
+}
+
