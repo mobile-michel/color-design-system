@@ -1,0 +1,134 @@
+/* Header */
+[role=banner] {
+    background-color: $primary500;
+    box-shadow: 1px 1px 5px 0px $grey900;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/* Logo */
+[role=banner] > a {
+    display: inline-block;
+    color: $grey100;
+    font-size: 60px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Nav menu */
+
+[aria-label=Main] {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: $primary500;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+[aria-label=Main] ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+[aria-label=Main] ul a {
+    display: block;
+    padding: 30px;
+    color: $grey100;
+    text-decoration: none;
+}
+
+[aria-label=Main] ul a:hover {
+    background-color: $primary700;
+}
+
+[aria-current="page"] a {
+    background-color: $primary600;
+}
+
+/* Menu Icon */
+
+[role=banner] label {
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}
+
+
+[role=banner] span {
+    background: $grey100;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+[role=banner] span::before,
+[role=banner] span::after{
+    background: $grey100;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+[role=banner] span::before{
+    top: 5px;
+}
+
+[role=banner] span::after{
+    top: -5px;
+}
+
+
+[role=banner] input {
+    display: none;
+}
+
+/* Toggle menu icon */
+
+[role=banner] input:checked ~ nav {
+    max-height: 100%;
+}
+
+[role=banner] input:checked ~ label span {
+    background: transparent;
+}
+
+[role=banner] input:checked ~ label span::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+
+[role=banner] input:checked ~ label span::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+
+/* Responsiveness */
+
+@media (min-width: 600px) {
+    [role=banner] nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    [role=banner] ul li {
+        float: left;
+    }
+    
+    [role=banner] label {
+        display: none;
+    }
+
+}

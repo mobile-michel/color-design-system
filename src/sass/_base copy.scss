@@ -1,0 +1,23 @@
+main {
+    background-color: $accent100;
+    color: $accent900;
+    border: 1px solid $accent200;
+    border-radius: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    background-color: $success100;
+    color: $success900;
+    border: 1px solid $success200;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+
+footer {
+    background-color: $grey100;
+    color: $grey900;
+    margin: 1em;
+}
