@@ -1,0 +1,59 @@
+$grey100: lch($lightness100 $greySaturation $greyHue);
+$grey200: lch($lightness200 $greySaturation $greyHue);
+$grey300: lch($lightness300 $greySaturation $greyHue);
+$grey400: lch($lightness400 $greySaturation $greyHue);
+$grey500: lch($lightness500 $greySaturation $greyHue);
+$grey600: lch($lightness600 $greySaturation $greyHue);
+$grey700: lch($lightness700 $greySaturation $greyHue);
+$grey800: lch($lightness800 $greySaturation $greyHue);
+$grey900: lch($lightness900 $greySaturation $greyHue);
+
+$primary100: lch($lightness100 $primarySaturation / 3 $primaryHue);
+$primary200: lch($lightness200 $primarySaturation / 2 $primaryHue);
+$primary300: lch($lightness300 $primarySaturation $primaryHue);
+$primary400: lch($lightness400 $primarySaturation $primaryHue);
+$primary500: lch($lightness500 $primarySaturation $primaryHue);
+$primary600: lch($lightness600 $primarySaturation $primaryHue);
+$primary700: lch($lightness700 $primarySaturation $primaryHue);
+$primary800: lch($lightness800 $primarySaturation $primaryHue);
+$primary900: lch($lightness900 $primarySaturation $primaryHue);
+
+$accent100: lch($lightness100 $accentSaturation / 3 $accentHue);
+$accent200: lch($lightness200 $accentSaturation / 2 $accentHue);
+$accent300: lch($lightness300 $accentSaturation $accentHue);
+$accent400: lch($lightness400 $accentSaturation $accentHue);
+$accent500: lch($lightness500 $accentSaturation $accentHue);
+$accent600: lch($lightness600 $accentSaturation $accentHue);
+$accent700: lch($lightness700 $accentSaturation $accentHue);
+$accent800: lch($lightness800 $accentSaturation $accentHue);
+$accent900: lch($lightness900 $accentSaturation $accentHue);
+
+$danger100: lch($lightness100 $dangerSaturation / 3 $dangerHue);
+$danger200: lch($lightness200 $dangerSaturation / 2 $dangerHue);
+$danger300: lch($lightness300 $dangerSaturation $dangerHue);
+$danger400: lch($lightness400 $dangerSaturation $dangerHue);
+$danger500: lch($lightness500 $dangerSaturation $dangerHue);
+$danger600: lch($lightness600 $dangerSaturation $dangerHue);
+$danger700: lch($lightness700 $dangerSaturation $dangerHue);
+$danger800: lch($lightness800 $dangerSaturation $dangerHue);
+$danger900: lch($lightness900 $dangerSaturation $dangerHue);
+
+$warning100: lch($lightness100 $warningSaturation / 3 $warningHue);
+$warning200: lch($lightness200 $warningSaturation / 2.5 $warningHue);
+$warning300: lch($lightness300 $warningSaturation / 2 $warningHue);
+$warning400: lch($lightness400 $warningSaturation $warningHue);
+$warning500: lch($lightness500 $warningSaturation $warningHue);
+$warning600: lch($lightness600 $warningSaturation $warningHue);
+$warning700: lch($lightness700 $warningSaturation $warningHue);
+$warning800: lch($lightness800 $warningSaturation $warningHue);
+$warning900: lch($lightness900 $warningSaturation $warningHue);
+
+$success100: lch($lightness100 $successSaturation / 3 $successHue);
+$success200: lch($lightness200 $successSaturation / 2.5 $successHue);
+$success300: lch($lightness300 $successSaturation / 2 $successHue);
+$success400: lch($lightness400 $successSaturation $successHue);
+$success500: lch($lightness500 $successSaturation $successHue);
+$success600: lch($lightness600 $successSaturation $successHue);
+$success700: lch($lightness700 $successSaturation $successHue);
+$success800: lch($lightness800 $successSaturation $successHue);
+$success900: lch($lightness900 $successSaturation $successHue);

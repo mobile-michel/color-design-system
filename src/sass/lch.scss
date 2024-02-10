@@ -1,0 +1,14 @@
+@import "configure/lch";
+@import "colors/lch";
+@import "colors/colorScheme";
+@import "colors/colors2";
+@import "layout";
+@import "navbar";
+@import "base";
+
+button {
+    border: 2px solid $grey500;
+    border-radius: 0.5em;
+    padding: .5em 1em;
+}
+
