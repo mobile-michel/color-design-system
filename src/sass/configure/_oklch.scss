@@ -1,0 +1,34 @@
+// Lightness:
+// 0 = darkest, 100 = lightest
+$lightness100: 99%;
+$lightness200: 87%;
+$lightness300: 75%;
+$lightness400: 63%;
+$lightness500: 51%;
+$lightness600: 39%;
+$lightness700: 26%;
+$lightness800: 13%;
+$lightness900: 1%;
+
+// Chroma:
+// 0 = grey, 0.37 = full color
+$greySaturation: 0.01;
+$primarySaturation: 0.10;
+$accentSaturation: $primarySaturation;
+$dangerSaturation: 0.25;
+$warningSaturation: $dangerSaturation;
+$successSaturation: $dangerSaturation;
+
+// Hue:
+// 0 = red, 60 = yellow, 120 = green, 180 = cyan, 240 = blue, 300 = magenta
+$greyHue: 60 + 30;
+$primaryHue: 300 + 30;
+$accentHue: $primaryHue + 180;
+$dangerHue: 360 + 30; // red
+$warningHue: 60 + 30; // yellow
+$successHue: 120 + 30; // green
+
+
+// Layout:
+// full, third, half
+$layout: full;

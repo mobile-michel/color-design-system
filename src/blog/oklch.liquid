@@ -1,0 +1,27 @@
+---
+title: OKLCH colors
+description: OKLCH colors are a new color space that is designed to be more perceptually uniform than LCH. This makes it easier to create color palettes that are more visually balanced and harmonious.
+url: https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl
+css: oklch.css
+---
+<ol>
+    <li>L is perceived lightness (0%-100%).</li>
+    <li>C is chroma, from gray to the most saturated color (0.00-0.37).</li>
+    <li>H is the hue angle (0-360).</li>
+    <li>a is opacity (0-1 or 0-100%).</li>
+</ol>
+
+<h2>Examples</h2>
+<ul>
+    <li>background: oklch(45% 0.26 264); /* blue */</li>
+    <li>color: oklch(100% 0 0); /* white */</li>
+    <li>color: oklch(0% 0 0 / 50%); /* black with 50% opacity */</li>
+</ul>
+
+<h2>Some links</h2>
+<ul>
+    <li><a href="https://huetone.ardov.me/">Palette Generator</a></li>
+    <li><a href="https://oklch.com/">Color Picker</a></li>
+</ul>
+
+{% render 'swatches/refactoring' %}
