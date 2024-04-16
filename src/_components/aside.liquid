@@ -2,7 +2,7 @@
     <h2>On this blog</h2>
     <ul>
         {% for i in collections.blog %}
-        <li><a href="{{ i.url }}">{{ i.data.title }}</a></li>
+        <li><a href="{{ i.url | url }}">{{ i.data.title }}</a></li>
         {% endfor %}
     </ul>
 </aside>

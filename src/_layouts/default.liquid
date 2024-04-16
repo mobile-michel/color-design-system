@@ -1,13 +1,13 @@
 ---
 layout: base
-css: style.css
+css: /assets/css/style.css
 ---
 {% include 'header' %}
 <main>
     {% include 'aside' %}
     <section>
         <h1>{{ title }}</h1>
-<p>{% if url %}<a href="{{ url }}" target="_blank">{% endif %}{{ description }}</a></p>
+<p>{% if url %}<a href="{{ url | url }}" target="_blank">{% endif %}{{ description }}</a></p>
         {{ content }}
     </section>
 </main>
